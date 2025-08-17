@@ -7,9 +7,9 @@ ngrok http 8000
 
 ### 2. Patterns/flow:
 ```
-1. LLM-Driven Agent (llm_agent) </br>
-The LLM decides the flow based on your prompt. </br>
-```markdown
+1. LLM-Driven Agent (llm_agent)
+The LLM decides the flow based on your prompt.
+
 [User Prompt]
    |
    v
@@ -29,7 +29,7 @@ The LLM decides the flow based on your prompt. </br>
              |
              v
           success/fail
-```
+          
 - Pros: fewer lines of orchestration code. <br>
 - Cons: retries/branching not deterministic, LLM may loop forever or give up too early. </br>
 
