@@ -1,11 +1,12 @@
 
-Operation:
+### 1. Operation:
 ```
 source /home/iacuser/venv/fastmcp-venv/bin/activate 
 ngrok http 8000
 ```
 
-Patterns: <br>
+### 2. Patterns/flow:
+```
 1. LLM-Driven Agent (llm_agent) </br>
 The LLM decides the flow based on your prompt. </br>
 ```markdown
@@ -65,5 +66,6 @@ The control logic is explicit, outside the LLM. </br>
    v                               |
    Restart at Step 1 ---------------+
 
-- Pros: fully deterministic, easy to monitor/debug. </br>
-- Cons: more orchestration code, less flexible if requirements change often. </br>
+- Pros: fully deterministic, easy to monitor/debug.
+- Cons: more orchestration code, less flexible if requirements change often.
+```
