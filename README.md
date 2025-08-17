@@ -29,12 +29,12 @@ The LLM decides the flow based on your prompt.
              |
              v
           success/fail
-          
-- Pros: fewer lines of orchestration code. <br>
-- Cons: retries/branching not deterministic, LLM may loop forever or give up too early. </br>
 
-2. Workflow-Driven Agent (workflow_agent) </br>
-The control logic is explicit, outside the LLM. </br>
+- Pros: fewer lines of orchestration code.
+- Cons: retries/branching not deterministic, LLM may loop forever or give up too early.
+
+2. Workflow-Driven Agent (workflow_agent)
+The control logic is explicit, outside the LLM.
 [User Prompt]
    |
    v
