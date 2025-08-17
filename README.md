@@ -1,9 +1,9 @@
 
 Operation:
-<code>
+```
 source /home/iacuser/venv/fastmcp-venv/bin/activate 
 ngrok http 8000
-</code>
+```
 
 Patterns: <br>
 1. LLM-Driven Agent (llm_agent) </br>
